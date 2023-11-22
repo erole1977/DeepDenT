@@ -1,0 +1,7 @@
+These programmes are used to obtain predictions for the deep dendritic neuron model. The programmes are as follows.
+
+simprogramDDNMclassic.m:  It is the code where the hyperparameters of the method are selected. Prediction results are obtained as a result of running this code. In the programme pg=1:8;hh=1:4;mm=1:2;qq=1:4; possible value ranges of hyperparameters are given. In addition, the lengths of the validity and test sets in the block structure should be given as nval and ntest as input to the function. x is the vector containing all observations of the time series.
+
+DNMdga.m: A programme for training and testing a single DeepDNM with DEA. 
+DDNMoutputboyut.m: The code that calculates the number of parameters of the network
+DDNMoutput.m : The code that calculates the output of the network for learning samples.
